@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Test Suite" duration-ms="79676" started-at="2019-10-04T09:58:39Z" finished-at="2019-10-04T09:59:58Z">
+    <groups>
+    </groups>
+    <test name="Open_test" duration-ms="7398" started-at="2019-10-04T09:58:39Z" finished-at="2019-10-04T09:58:46Z">
+      <class name="com.maven.Utilities.OpenTest">
+        <test-method status="PASS" signature="Browser(java.lang.String)[pri:0, instance:com.maven.Utilities.OpenTest@5abca1e0]" name="Browser" duration-ms="7303" started-at="2019-10-04T09:58:39Z" description="before" finished-at="2019-10-04T09:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+      </class> <!-- com.maven.Utilities.OpenTest -->
+    </test> <!-- Open_test -->
+    <test name="Test_Cases" duration-ms="72152" started-at="2019-10-04T09:58:46Z" finished-at="2019-10-04T09:59:58Z">
+      <class name="com.maven.CapsuleMain.Test.TestClasses">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.maven.CapsuleMain.Test.TestClasses@6e0e048a]" name="LoginTest" duration-ms="38517" started-at="2019-10-04T09:58:46Z" finished-at="2019-10-04T09:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="NewPersonTest()[pri:0, instance:com.maven.CapsuleMain.Test.TestClasses@6e0e048a]" name="NewPersonTest" duration-ms="25918" started-at="2019-10-04T09:59:25Z" finished-at="2019-10-04T09:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewPersonTest -->
+        <test-method status="PASS" signature="NewCaseTest()[pri:0, instance:com.maven.CapsuleMain.Test.TestClasses@6e0e048a]" name="NewCaseTest" duration-ms="7693" started-at="2019-10-04T09:59:50Z" finished-at="2019-10-04T09:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCaseTest -->
+      </class> <!-- com.maven.CapsuleMain.Test.TestClasses -->
+    </test> <!-- Test_Cases -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>

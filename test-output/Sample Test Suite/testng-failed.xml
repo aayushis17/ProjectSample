@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Sample Test Suite]" parallel="methods">
+  <test thread-count="1" name="Open_test(failed)" parallel="methods">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.maven.Utilities.OpenTest">
+        <methods>
+          <include name="Browser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.maven.Utilities.OpenTest -->
+    </classes>
+  </test> <!-- Open_test(failed) -->
+  <test thread-count="1" name="Test_Cases(failed)" parallel="methods">
+    <classes>
+      <class name="com.maven.CapsuleMain.Test.TestClasses">
+        <methods>
+          <include name="NewPersonTest"/>
+          <include name="LoginTest"/>
+          <include name="NewCaseTest"/>
+        </methods>
+      </class> <!-- com.maven.CapsuleMain.Test.TestClasses -->
+    </classes>
+  </test> <!-- Test_Cases(failed) -->
+</suite> <!-- Failed suite [Sample Test Suite] -->

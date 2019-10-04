@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sample Test Suite" verbose="1" parallel = "methods"  preserve-order="true" thread-count = "1">
+
+<test name="Open_test">
+ <parameter name="browser" value="CHROME"/>
+ <classes>
+ <class name="com.maven.Utilities.OpenTest">
+ <methods>
+ 	<include name ="Browser"/>
+ </methods>
+ </class>
+ </classes>
+ </test>   
+ 
+  <test name="Test_Cases">
+ <classes>
+ <class name="com.maven.CapsuleMain.Test.TestClasses">
+ <methods>
+ 	<include name="LoginTest"/>
+ 	<include name="NewPersonTest"/>
+ 	<include name="NewCaseTest"/>
+ </methods>
+ </class>
+ </classes>
+ </test>  
+          
+</suite>
